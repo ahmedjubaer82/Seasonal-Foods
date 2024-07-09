@@ -1,0 +1,52 @@
+.header-container{
+    height: 100vh;
+    background-image: url(./Images/Banner/Middle\ Banner\ Back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav{
+    padding-top: 20px;
+    background-color: var(--nav-background-color);
+    color: var(--font-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+#Right-side-icon-id{
+    width: 180px;
+    text-align: right;
+}
+
+.banner-title h1{
+    font-weight: bolder;
+    font-size: 150px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin: 40px 0;
+}
+
+.banner-desc{
+    font-weight: bolder;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 40px 0;
+}
+
+#banner-image{
+    justify-content: center;
+}
+
+.banner-image-container{
+    background-color: var(--nav-background-color);
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 550px) {
+    .nav{
+       font-size: 16px;
+    }
+}
